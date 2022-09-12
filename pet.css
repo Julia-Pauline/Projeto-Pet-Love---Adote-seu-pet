@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(./img/fundopata.jpg);
+    background-position: center;
+    }
+
+
+.img-log{
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: #6f5846;
+}
+
+h3{
+    font-size: 50px;
+    text-align: center;
+    color: #6f5846;
+}
+
+.dizeres{
+    background-color:#6f5846;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+}
+
+.autor{
+    background-color: #6f5846;
+    padding-right: 200px;
+    font-family:bonita;
+    text-align: right;
+    color: ghostwhite;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+    font-family: 'bonita';
+    background-color: #6f5846;
+}
+
+.menu{
+    color: white;
+}
+
+li{
+    background-color: #b5a28b;
+    padding: 10px 5px;
+    border-radius: 50px;
+}
+
+li:hover{
+    padding: 10px 25px;
+}
+
+.fotopet{
+    width: 328px;
+    height: 330px;
+    border-radius: 15px;
+    text-align: center center;
+    align-items: center center;
+}
+
+.petvini{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.maps{
+    width: 400px;
+    margin: 0 auto;
+}
+
+footer{
+    font-family: bonita;
+    background-color:#6f5846;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+}
